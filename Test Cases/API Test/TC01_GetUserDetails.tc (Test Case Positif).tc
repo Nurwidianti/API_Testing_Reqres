@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Positif case get data user (valid data)</description>
+   <name>TC01_GetUserDetails.tc (Test Case Positif)</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>087b502e-0495-4754-9358-2507947f550c</testCaseGuid>
+</TestCaseEntity>

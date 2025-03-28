@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC02_GetUserNotFound.tc</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8cb0efdf-1db2-45a6-ad8e-a3f6fdc0768e</testCaseGuid>
+</TestCaseEntity>

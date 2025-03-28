@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Negatif Case create user with all data request empty</description>
+   <name>TC04_CreateUser_EmptyBody</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7b2edbe6-3565-4348-8e80-c0f79e4edbc6</testCaseGuid>
+</TestCaseEntity>

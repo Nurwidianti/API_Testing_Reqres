@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case positif create user with valid data</description>
+   <name>TC03_CreateUser.tc</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3a8c7c8a-3129-4320-9099-d96b14bb1171</testCaseGuid>
+</TestCaseEntity>
