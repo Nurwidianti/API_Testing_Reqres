@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Positif case login with valid credential</description>
+   <name>TC09_LoginUser.tc</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>cbce2cfc-044e-4f38-8fb1-f4d3d8fab5d8</testCaseGuid>
+</TestCaseEntity>

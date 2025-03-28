@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Positif case update user with valid data</description>
+   <name>TC05_UpdateUser.tc</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>908feb14-a8a9-4eeb-9f4d-44d995233a9c</testCaseGuid>
+</TestCaseEntity>

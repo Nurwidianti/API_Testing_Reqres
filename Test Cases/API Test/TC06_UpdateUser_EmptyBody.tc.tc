@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Positif case update user with valid data</description>
+   <name>TC06_UpdateUser_EmptyBody.tc</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4a4b78d6-701d-44fe-9054-7d166c583d0f</testCaseGuid>
+</TestCaseEntity>

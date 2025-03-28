@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Negatif case update data invalid user</description>
+   <name>TC07_UpdateUser_InvalidUser.tc</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0d743731-ed3d-4279-bd60-cf8f1a782ef8</testCaseGuid>
+</TestCaseEntity>

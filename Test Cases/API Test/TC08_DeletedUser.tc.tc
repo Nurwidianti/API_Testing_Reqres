@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Positif case deleted valid user</description>
+   <name>TC08_DeletedUser.tc</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>57aed2cb-1294-4714-8284-171761cd4a34</testCaseGuid>
+</TestCaseEntity>

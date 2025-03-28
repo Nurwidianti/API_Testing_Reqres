@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>GetUserDetails</name>
+   <name>DeletedUser</name>
    <tag></tag>
-   <elementGuidId>aab2fb80-be72-4734-8a1f-6a95a9200815</elementGuidId>
+   <elementGuidId>d716e62d-da5c-40c1-9ff1-b8f25d5bd9c4</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -11,13 +11,25 @@
    <connectionTimeout>-1</connectionTimeout>
    <followRedirects>true</followRedirects>
    <httpBody></httpBody>
-   <httpBodyContent></httpBodyContent>
-   <httpBodyType></httpBodyType>
+   <httpBodyContent>{
+  &quot;text&quot;: &quot;&quot;,
+  &quot;contentType&quot;: &quot;text/plain&quot;,
+  &quot;charset&quot;: &quot;UTF-8&quot;
+}</httpBodyContent>
+   <httpBodyType>text</httpBodyType>
+   <httpHeaderProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Content-Type</name>
+      <type>Main</type>
+      <value>text/plain</value>
+      <webElementGuid>500ed234-51c2-40f8-aa52-6d0184f7e7d4</webElementGuid>
+   </httpHeaderProperties>
    <katalonVersion>10.1.1</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
-   <restRequestMethod>GET</restRequestMethod>
+   <restRequestMethod>DELETE</restRequestMethod>
    <restUrl>https://reqres.in/api/users/${userId}</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
@@ -28,9 +40,9 @@
    <socketTimeout>-1</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
    <variables>
-      <defaultValue>'3'</defaultValue>
+      <defaultValue>'2'</defaultValue>
       <description></description>
-      <id>d1fb72af-8580-45b5-96e7-34f2e84c2f68</id>
+      <id>bca3353e-b438-45dd-b5e9-ad38791920fb</id>
       <masked>false</masked>
       <name>userId</name>
    </variables>

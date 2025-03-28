@@ -1,23 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>GetUserDetails</name>
+   <name>UpdateUser</name>
    <tag></tag>
-   <elementGuidId>aab2fb80-be72-4734-8a1f-6a95a9200815</elementGuidId>
+   <elementGuidId>47115ece-3884-423e-b81a-e12904b929dd</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
-   <autoUpdateContent>true</autoUpdateContent>
+   <autoUpdateContent>false</autoUpdateContent>
    <connectionTimeout>-1</connectionTimeout>
    <followRedirects>true</followRedirects>
    <httpBody></httpBody>
-   <httpBodyContent></httpBodyContent>
-   <httpBodyType></httpBodyType>
+   <httpBodyContent>{
+  &quot;text&quot;: &quot;{\n    \&quot;name\&quot;: \&quot;${name}\&quot;,\n    \&quot;job\&quot;: \&quot;${job}\&quot;\n}&quot;,
+  &quot;contentType&quot;: &quot;application/json&quot;,
+  &quot;charset&quot;: &quot;UTF-8&quot;
+}</httpBodyContent>
+   <httpBodyType>text</httpBodyType>
+   <httpHeaderProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Content-Type</name>
+      <type>Main</type>
+      <value>application/json</value>
+      <webElementGuid>3b919464-a257-4b45-8ab9-e39f3402e356</webElementGuid>
+   </httpHeaderProperties>
    <katalonVersion>10.1.1</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
-   <restRequestMethod>GET</restRequestMethod>
+   <restRequestMethod>PUT</restRequestMethod>
    <restUrl>https://reqres.in/api/users/${userId}</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
@@ -28,9 +40,9 @@
    <socketTimeout>-1</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
    <variables>
-      <defaultValue>'3'</defaultValue>
+      <defaultValue>'2'</defaultValue>
       <description></description>
-      <id>d1fb72af-8580-45b5-96e7-34f2e84c2f68</id>
+      <id>976fb6dc-418f-4eb8-ad02-a5e9d5292a41</id>
       <masked>false</masked>
       <name>userId</name>
    </variables>
